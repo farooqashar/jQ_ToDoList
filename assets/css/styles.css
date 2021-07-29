@@ -7,7 +7,8 @@
   @keyframes bkgrdc {
     from {background-color: lightcyan;}
     to {background-color: darkslateblue;}
-    to {background-color: white;}
+    to {background-color: skyblue;}
+    to {background-color: lightblue;}
   }  
 
 .done {
