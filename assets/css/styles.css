@@ -1,3 +1,15 @@
+@keyframes mainTitle {
+    from {color: red;}
+    to {color: white;}
+    to {color: blue;}
+  }
+  
+  @keyframes bkgrdc {
+    from {background-color: lightcyan;}
+    to {background-color: darkslateblue;}
+    to {background-color: white;}
+  }  
+
 .done {
     color:green;
     text-decoration: line-through;
@@ -63,5 +75,13 @@ li:nth-child(2n) {
 
 body {
     font-family: 'Ubuntu', sans-serif;
+    animation-name: bkgrdc;
+    animation-duration: 25s;
 }
 
+.main {
+    color:crimson;
+    animation-name: mainTitle;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
