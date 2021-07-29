@@ -13,7 +13,11 @@ $("ul").on("click","span",function(event){
 $("input").keypress(function(event){
     if(event.which === 13) {
         let task = $("input").val();
-        $("ul").append("<li><span>X </span>" + task + "</li>");
+        $("ul").append("<li><span class='delete'><i class='material-icons'>delete</i></span>" + task + "</li>");
         $("input").val("");
     }
+});
+
+$("#addition").click(function(){
+    $("input").fadeToggle();
 });

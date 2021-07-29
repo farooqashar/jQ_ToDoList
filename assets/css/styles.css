@@ -85,3 +85,28 @@ body {
     animation-duration: 3s;
     animation-iteration-count: infinite;
   }
+
+.delete {
+    background: red;
+    color:white;
+    height: 40px;
+    text-align: center;
+    width: 0px;
+    float: left;
+    display: inline-block;
+    opacity: 0;
+    transition: 0.4s linear;
+}
+
+li:hover span {
+    width: 40px;
+    opacity: 1;
+}
+
+#addition {
+    float: right;
+    margin-right: 0;
+    color:white;
+    border-radius: 2px;
+    border-color: thistle;
+}
